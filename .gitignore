@@ -5,3 +5,5 @@
 *.xcworkspace/xcshareddata/*
 *.xcworkspace/xcuserdata/*
 Pods/
+Build/
+DerivedData/
