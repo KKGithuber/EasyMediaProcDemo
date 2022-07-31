@@ -8,6 +8,7 @@
 #import "FFmpegCmdToolsViewController.h"
 #import <EasyMediaProc/FFmpegTools.h>
 #import <Masonry/Masonry.h>
+#import "VideoPlayerViewController.h"
 
 @interface FFmpegCmdToolsViewController ()
 @property(nonatomic)UIAlertController *waitingAlert;
@@ -96,7 +97,8 @@
                                             range:range
                                         completed:^(NSInteger result) {
         [self showOrHideWaiting:YES];
-        [self showMessage:outPutVideoPath];
+        [self playWithPath:outPutVideoPath];
+//        [self showMessage:outPutVideoPath];
     }];
 }
 
@@ -138,7 +140,8 @@
                                      options:options
                                    completed:^(KKErrorType result) {
         [self showOrHideWaiting:YES];
-        [self showMessage:outPutPath];
+//        [self showMessage:outPutPath];
+        [self playWithPath:outPutPath];
     }];
 }
 
@@ -171,7 +174,8 @@
                                      options:nil
                                    completed:^(KKErrorType result) {
         [self showOrHideWaiting:YES];
-        [self showMessage:outPutPath];
+//        [self showMessage:outPutPath];
+        [self playWithPath:outPutPath];
     }];
 }
 
@@ -187,7 +191,8 @@
                                      rate:rate
                                 completed:^(KKErrorType result) {
         [self showOrHideWaiting:YES];
-        [self showMessage:outPutVideoPath];
+//        [self showMessage:outPutVideoPath];
+        [self playWithPath:outPutVideoPath];
     }];
 }
 
@@ -205,7 +210,8 @@
                               cropOptions:opts
                                 completed:^(KKErrorType result) {
         [self showOrHideWaiting:YES];
-        [self showMessage:outPutVideoPath];
+//        [self showMessage:outPutVideoPath];
+        [self playWithPath:outPutVideoPath];
     }];
 }
 
@@ -220,7 +226,8 @@
                                      scale:0.5
                                  completed:^(KKErrorType result) {
         [self showOrHideWaiting:YES];
-        [self showMessage:outPutVideoPath];
+//        [self showMessage:outPutVideoPath];
+        [self playWithPath:outPutVideoPath];
     }];
 }
 
@@ -234,6 +241,14 @@
     [alertCtrl addAction:actionCancel];
     [self presentViewController:alertCtrl animated:YES completion:nil];
     KKPlayerLog(@"output path : %@", message);
+}
+
+#pragma mark -- 播放
+
+- (void)playWithPath:(NSString *)path {
+    VideoPlayerViewController *ctrl = [VideoPlayerViewController new];
+    ctrl.filePath = path;
+    [self.navigationController pushViewController:ctrl animated:YES];
 }
 
 #pragma mark -- wating
