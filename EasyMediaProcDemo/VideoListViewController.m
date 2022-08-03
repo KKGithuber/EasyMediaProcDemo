@@ -102,7 +102,7 @@
         [[NSBundle mainBundle] pathForResource:@"The_Three_Diablos" ofType:@"avi"],
         [[NSBundle mainBundle] pathForResource:@"h264" ofType:@"MOV"],
         [[NSBundle mainBundle] pathForResource:@"hevc" ofType:@"MOV"],
-        [[NSBundle mainBundle] pathForResource:@"TearsOfSteel_720p_h265" ofType:@"mkv"],
+        [[NSBundle mainBundle] pathForResource:@"TearsOfSteel 720p h265" ofType:@"mkv"],
         [[NSBundle mainBundle] pathForResource:@"video_convert_asf" ofType:@"asf"],
         [[NSBundle mainBundle] pathForResource:@"video_convert_flv" ofType:@"flv"],
         [[NSBundle mainBundle] pathForResource:@"video_convert_mkv" ofType:@"mkv"],
