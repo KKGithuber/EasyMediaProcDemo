@@ -74,10 +74,10 @@
 }
 
 - (void)playVideo {
-    if ([self isSimuLator]) {
-        [self showMessage:@"模拟器会出现播放异常情况，建议在真机上播放"];
-        return;
-    }
+//    if ([self isSimuLator]) {
+//        [self showMessage:@"模拟器会出现播放异常情况，建议在真机上播放"];
+//        return;
+//    }
     VideoListViewController *ctrl = [VideoListViewController new];
     [self.navigationController pushViewController:ctrl animated:YES];
 }
