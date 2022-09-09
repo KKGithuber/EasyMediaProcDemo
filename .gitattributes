@@ -1,1 +1,2 @@
-
+ThirdFrameWorks/EasyMediaProc.framework/EasyMediaProc filter=lfs diff=lfs merge=lfs -text
+EasyMediaProcDemo/Media/TearsOfSteel[[:space:]]720p[[:space:]]h265.mkv filter=lfs diff=lfs merge=lfs -text
