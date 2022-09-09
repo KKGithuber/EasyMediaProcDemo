@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E08534028CB03E2003B9C39 /* EasyMediaProc.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0E08533F28CB03E2003B9C39 /* EasyMediaProc.bundle */; };
+		0E8038B628CAFA7D006FDA59 /* EasyMediaProc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8038B528CAFA7D006FDA59 /* EasyMediaProc.framework */; };
 		854DB75D2882D2D90007D001 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 854DB75C2882D2D90007D001 /* AppDelegate.m */; };
 		854DB7602882D2D90007D001 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 854DB75F2882D2D90007D001 /* SceneDelegate.m */; };
 		854DB7662882D2D90007D001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854DB7642882D2D90007D001 /* Main.storyboard */; };
@@ -53,12 +55,12 @@
 		855257C02882FCF700D999AB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 855257BF2882FCF700D999AB /* libz.tbd */; };
 		855257C22882FD0600D999AB /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 855257C12882FD0600D999AB /* libiconv.tbd */; };
 		855257C42882FD1D00D999AB /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 855257C32882FD1D00D999AB /* libbz2.tbd */; };
-		859070A628865CE1007FB11B /* EasyMediaProc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859070A428865CE1007FB11B /* EasyMediaProc.framework */; };
-		859070A728865CE1007FB11B /* EasyMediaProc.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 859070A528865CE1007FB11B /* EasyMediaProc.bundle */; };
 		9A0F06E137B3C19DE8759FAA /* libPods-EasyMediaProcDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 292FD5E79690CD15A20779F4 /* libPods-EasyMediaProcDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E08533F28CB03E2003B9C39 /* EasyMediaProc.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EasyMediaProc.bundle; sourceTree = "<group>"; };
+		0E8038B528CAFA7D006FDA59 /* EasyMediaProc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EasyMediaProc.framework; sourceTree = "<group>"; };
 		292FD5E79690CD15A20779F4 /* libPods-EasyMediaProcDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyMediaProcDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A543575F7971D402394B204 /* Pods-EasyMediaProcDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyMediaProcDemo.release.xcconfig"; path = "Target Support Files/Pods-EasyMediaProcDemo/Pods-EasyMediaProcDemo.release.xcconfig"; sourceTree = "<group>"; };
 		6B40B75B3D665801F6889181 /* Pods-EasyMediaProcDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyMediaProcDemo.debug.xcconfig"; path = "Target Support Files/Pods-EasyMediaProcDemo/Pods-EasyMediaProcDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,8 +120,6 @@
 		855257BF2882FCF700D999AB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		855257C12882FD0600D999AB /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		855257C32882FD1D00D999AB /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
-		859070A428865CE1007FB11B /* EasyMediaProc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EasyMediaProc.framework; sourceTree = "<group>"; };
-		859070A528865CE1007FB11B /* EasyMediaProc.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EasyMediaProc.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,10 +128,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				855257C42882FD1D00D999AB /* libbz2.tbd in Frameworks */,
-				859070A628865CE1007FB11B /* EasyMediaProc.framework in Frameworks */,
 				855257C22882FD0600D999AB /* libiconv.tbd in Frameworks */,
 				855257C02882FCF700D999AB /* libz.tbd in Frameworks */,
 				855257BE2882FCED00D999AB /* VideoToolbox.framework in Frameworks */,
+				0E8038B628CAFA7D006FDA59 /* EasyMediaProc.framework in Frameworks */,
 				855257BC2882FCE600D999AB /* AudioToolbox.framework in Frameworks */,
 				9A0F06E137B3C19DE8759FAA /* libPods-EasyMediaProcDemo.a in Frameworks */,
 			);
@@ -214,7 +214,7 @@
 		854DB9652882E7A90007D001 /* ThirdFrameWorks */ = {
 			isa = PBXGroup;
 			children = (
-				859070A328865CE1007FB11B /* EasyMediaProc */,
+				0E8038B528CAFA7D006FDA59 /* EasyMediaProc.framework */,
 			);
 			path = ThirdFrameWorks;
 			sourceTree = "<group>";
@@ -222,6 +222,7 @@
 		854DB96F2882E86A0007D001 /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				0E08533F28CB03E2003B9C39 /* EasyMediaProc.bundle */,
 				854DB9702882E86A0007D001 /* video_convert_mkv.mkv */,
 				854DB9722882E86A0007D001 /* audio_aiff.aiff */,
 				854DB9732882E86A0007D001 /* video_convert_avi.avi */,
@@ -260,15 +261,6 @@
 				854DB98F2882E86A0007D001 /* play_full@3x.png */,
 			);
 			path = Icons;
-			sourceTree = "<group>";
-		};
-		859070A328865CE1007FB11B /* EasyMediaProc */ = {
-			isa = PBXGroup;
-			children = (
-				859070A428865CE1007FB11B /* EasyMediaProc.framework */,
-				859070A528865CE1007FB11B /* EasyMediaProc.bundle */,
-			);
-			path = EasyMediaProc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,7 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				854DB9B12882E86A0007D001 /* pause@3x.png in Resources */,
-				859070A728865CE1007FB11B /* EasyMediaProc.bundle in Resources */,
+				0E08534028CB03E2003B9C39 /* EasyMediaProc.bundle in Resources */,
 				854DB9AA2882E86A0007D001 /* video_convert_asf.asf in Resources */,
 				854DB76B2882D2DA0007D001 /* LaunchScreen.storyboard in Resources */,
 				854DB9982882E86A0007D001 /* audio_ac3.ac3 in Resources */,
@@ -554,7 +546,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ThirdFrameWorks",
-					"$(PROJECT_DIR)/ThirdFrameWorks/EasyMediaProc",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EasyMediaProcDemo/Info.plist;
@@ -602,7 +593,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ThirdFrameWorks",
-					"$(PROJECT_DIR)/ThirdFrameWorks/EasyMediaProc",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EasyMediaProcDemo/Info.plist;
