@@ -29,4 +29,8 @@ iOS平台上音视频播放Demo
    * libz.tbd<br>
 
 2、将ThirdFrameWorks目录中的EasyMediaProc.bundle添加到项目中<br>
+
+# 注意事项
+
+项目中的大文件使用lfs进行管理，请确保您已经安装了git lfs， 且项目的源码不能使用Download ZIP方式下载，需要使用git clone下载源码
    
