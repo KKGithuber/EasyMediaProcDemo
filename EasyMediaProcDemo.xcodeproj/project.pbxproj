@@ -8,33 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0E08534028CB03E2003B9C39 /* EasyMediaProc.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0E08533F28CB03E2003B9C39 /* EasyMediaProc.bundle */; };
-		0E08535B28CB06C3003B9C39 /* video_convert_mpeg.mpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0E08534128CB06C2003B9C39 /* video_convert_mpeg.mpeg */; };
-		0E08535C28CB06C3003B9C39 /* The_Three_Diablos.avi in Resources */ = {isa = PBXBuildFile; fileRef = 0E08534228CB06C2003B9C39 /* The_Three_Diablos.avi */; };
-		0E08535D28CB06C3003B9C39 /* audio_mp3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0E08534328CB06C2003B9C39 /* audio_mp3.mp3 */; };
-		0E08535E28CB06C3003B9C39 /* i-see-fire.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0E08534428CB06C2003B9C39 /* i-see-fire.mp4 */; };
-		0E08535F28CB06C3003B9C39 /* NewYork.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E08534528CB06C2003B9C39 /* NewYork.ttf */; };
-		0E08536028CB06C3003B9C39 /* video_convert_mov.mov in Resources */ = {isa = PBXBuildFile; fileRef = 0E08534628CB06C2003B9C39 /* video_convert_mov.mov */; };
-		0E08536128CB06C3003B9C39 /* TearsOfSteel 720p h265.mkv in Resources */ = {isa = PBXBuildFile; fileRef = 0E08534728CB06C2003B9C39 /* TearsOfSteel 720p h265.mkv */; };
-		0E08536228CB06C3003B9C39 /* video_convert_flv.flv in Resources */ = {isa = PBXBuildFile; fileRef = 0E08534828CB06C2003B9C39 /* video_convert_flv.flv */; };
-		0E08536328CB06C3003B9C39 /* audio_wav.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E08534928CB06C2003B9C39 /* audio_wav.wav */; };
-		0E08536428CB06C3003B9C39 /* audio_flac.flac in Resources */ = {isa = PBXBuildFile; fileRef = 0E08534A28CB06C2003B9C39 /* audio_flac.flac */; };
-		0E08536528CB06C3003B9C39 /* video_convert_mkv.mkv in Resources */ = {isa = PBXBuildFile; fileRef = 0E08534B28CB06C2003B9C39 /* video_convert_mkv.mkv */; };
-		0E08536628CB06C3003B9C39 /* video_convert_asf.asf in Resources */ = {isa = PBXBuildFile; fileRef = 0E08534C28CB06C2003B9C39 /* video_convert_asf.asf */; };
-		0E08536728CB06C3003B9C39 /* speed_play.mkv in Resources */ = {isa = PBXBuildFile; fileRef = 0E08534D28CB06C2003B9C39 /* speed_play.mkv */; };
-		0E08536828CB06C3003B9C39 /* audio_wma.wma in Resources */ = {isa = PBXBuildFile; fileRef = 0E08534E28CB06C2003B9C39 /* audio_wma.wma */; };
-		0E08536928CB06C3003B9C39 /* video_convert_avi.avi in Resources */ = {isa = PBXBuildFile; fileRef = 0E08534F28CB06C2003B9C39 /* video_convert_avi.avi */; };
-		0E08536A28CB06C3003B9C39 /* audio_m4a.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0E08535028CB06C2003B9C39 /* audio_m4a.m4a */; };
-		0E08536B28CB06C3003B9C39 /* speed_2.0.mkv in Resources */ = {isa = PBXBuildFile; fileRef = 0E08535128CB06C3003B9C39 /* speed_2.0.mkv */; };
-		0E08536C28CB06C3003B9C39 /* video_h264.h264 in Resources */ = {isa = PBXBuildFile; fileRef = 0E08535228CB06C3003B9C39 /* video_h264.h264 */; };
-		0E08536D28CB06C3003B9C39 /* audio_ogg.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 0E08535328CB06C3003B9C39 /* audio_ogg.ogg */; };
-		0E08536E28CB06C3003B9C39 /* test_filter.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E08535428CB06C3003B9C39 /* test_filter.png */; };
-		0E08536F28CB06C3003B9C39 /* h264.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 0E08535528CB06C3003B9C39 /* h264.MOV */; };
-		0E08537028CB06C3003B9C39 /* audio_ac3.ac3 in Resources */ = {isa = PBXBuildFile; fileRef = 0E08535628CB06C3003B9C39 /* audio_ac3.ac3 */; };
-		0E08537128CB06C3003B9C39 /* hevc.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 0E08535728CB06C3003B9C39 /* hevc.MOV */; };
-		0E08537228CB06C3003B9C39 /* audio_aac.aac in Resources */ = {isa = PBXBuildFile; fileRef = 0E08535828CB06C3003B9C39 /* audio_aac.aac */; };
-		0E08537328CB06C3003B9C39 /* audio_aiff.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 0E08535928CB06C3003B9C39 /* audio_aiff.aiff */; };
-		0E08537428CB06C3003B9C39 /* video_convert_wmv.wmv in Resources */ = {isa = PBXBuildFile; fileRef = 0E08535A28CB06C3003B9C39 /* video_convert_wmv.wmv */; };
-		0E8038B628CAFA7D006FDA59 /* EasyMediaProc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8038B528CAFA7D006FDA59 /* EasyMediaProc.framework */; };
 		854DB75D2882D2D90007D001 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 854DB75C2882D2D90007D001 /* AppDelegate.m */; };
 		854DB7602882D2D90007D001 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 854DB75F2882D2D90007D001 /* SceneDelegate.m */; };
 		854DB7662882D2D90007D001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854DB7642882D2D90007D001 /* Main.storyboard */; };
@@ -60,33 +33,6 @@
 
 /* Begin PBXFileReference section */
 		0E08533F28CB03E2003B9C39 /* EasyMediaProc.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EasyMediaProc.bundle; sourceTree = "<group>"; };
-		0E08534128CB06C2003B9C39 /* video_convert_mpeg.mpeg */ = {isa = PBXFileReference; lastKnownFileType = video.mpeg; path = video_convert_mpeg.mpeg; sourceTree = "<group>"; };
-		0E08534228CB06C2003B9C39 /* The_Three_Diablos.avi */ = {isa = PBXFileReference; lastKnownFileType = video.avi; path = The_Three_Diablos.avi; sourceTree = "<group>"; };
-		0E08534328CB06C2003B9C39 /* audio_mp3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio_mp3.mp3; sourceTree = "<group>"; };
-		0E08534428CB06C2003B9C39 /* i-see-fire.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-see-fire.mp4"; sourceTree = "<group>"; };
-		0E08534528CB06C2003B9C39 /* NewYork.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NewYork.ttf; sourceTree = "<group>"; };
-		0E08534628CB06C2003B9C39 /* video_convert_mov.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = video_convert_mov.mov; sourceTree = "<group>"; };
-		0E08534728CB06C2003B9C39 /* TearsOfSteel 720p h265.mkv */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TearsOfSteel 720p h265.mkv"; sourceTree = "<group>"; };
-		0E08534828CB06C2003B9C39 /* video_convert_flv.flv */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_convert_flv.flv; sourceTree = "<group>"; };
-		0E08534928CB06C2003B9C39 /* audio_wav.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audio_wav.wav; sourceTree = "<group>"; };
-		0E08534A28CB06C2003B9C39 /* audio_flac.flac */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio_flac.flac; sourceTree = "<group>"; };
-		0E08534B28CB06C2003B9C39 /* video_convert_mkv.mkv */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_convert_mkv.mkv; sourceTree = "<group>"; };
-		0E08534C28CB06C2003B9C39 /* video_convert_asf.asf */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_convert_asf.asf; sourceTree = "<group>"; };
-		0E08534D28CB06C2003B9C39 /* speed_play.mkv */ = {isa = PBXFileReference; lastKnownFileType = file; path = speed_play.mkv; sourceTree = "<group>"; };
-		0E08534E28CB06C2003B9C39 /* audio_wma.wma */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio_wma.wma; sourceTree = "<group>"; };
-		0E08534F28CB06C2003B9C39 /* video_convert_avi.avi */ = {isa = PBXFileReference; lastKnownFileType = video.avi; path = video_convert_avi.avi; sourceTree = "<group>"; };
-		0E08535028CB06C2003B9C39 /* audio_m4a.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio_m4a.m4a; sourceTree = "<group>"; };
-		0E08535128CB06C3003B9C39 /* speed_2.0.mkv */ = {isa = PBXFileReference; lastKnownFileType = file; path = speed_2.0.mkv; sourceTree = "<group>"; };
-		0E08535228CB06C3003B9C39 /* video_h264.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_h264.h264; sourceTree = "<group>"; };
-		0E08535328CB06C3003B9C39 /* audio_ogg.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio_ogg.ogg; sourceTree = "<group>"; };
-		0E08535428CB06C3003B9C39 /* test_filter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_filter.png; sourceTree = "<group>"; };
-		0E08535528CB06C3003B9C39 /* h264.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = h264.MOV; sourceTree = "<group>"; };
-		0E08535628CB06C3003B9C39 /* audio_ac3.ac3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio_ac3.ac3; sourceTree = "<group>"; };
-		0E08535728CB06C3003B9C39 /* hevc.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = hevc.MOV; sourceTree = "<group>"; };
-		0E08535828CB06C3003B9C39 /* audio_aac.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio_aac.aac; sourceTree = "<group>"; };
-		0E08535928CB06C3003B9C39 /* audio_aiff.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = audio_aiff.aiff; sourceTree = "<group>"; };
-		0E08535A28CB06C3003B9C39 /* video_convert_wmv.wmv */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_convert_wmv.wmv; sourceTree = "<group>"; };
-		0E8038B528CAFA7D006FDA59 /* EasyMediaProc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EasyMediaProc.framework; sourceTree = "<group>"; };
 		292FD5E79690CD15A20779F4 /* libPods-EasyMediaProcDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyMediaProcDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A543575F7971D402394B204 /* Pods-EasyMediaProcDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyMediaProcDemo.release.xcconfig"; path = "Target Support Files/Pods-EasyMediaProcDemo/Pods-EasyMediaProcDemo.release.xcconfig"; sourceTree = "<group>"; };
 		6B40B75B3D665801F6889181 /* Pods-EasyMediaProcDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyMediaProcDemo.debug.xcconfig"; path = "Target Support Files/Pods-EasyMediaProcDemo/Pods-EasyMediaProcDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,7 +77,6 @@
 				855257C22882FD0600D999AB /* libiconv.tbd in Frameworks */,
 				855257C02882FCF700D999AB /* libz.tbd in Frameworks */,
 				855257BE2882FCED00D999AB /* VideoToolbox.framework in Frameworks */,
-				0E8038B628CAFA7D006FDA59 /* EasyMediaProc.framework in Frameworks */,
 				855257BC2882FCE600D999AB /* AudioToolbox.framework in Frameworks */,
 				9A0F06E137B3C19DE8759FAA /* libPods-EasyMediaProcDemo.a in Frameworks */,
 			);
@@ -214,7 +159,6 @@
 		854DB9652882E7A90007D001 /* ThirdFrameWorks */ = {
 			isa = PBXGroup;
 			children = (
-				0E8038B528CAFA7D006FDA59 /* EasyMediaProc.framework */,
 			);
 			path = ThirdFrameWorks;
 			sourceTree = "<group>";
@@ -222,32 +166,6 @@
 		854DB96F2882E86A0007D001 /* Media */ = {
 			isa = PBXGroup;
 			children = (
-				0E08535828CB06C3003B9C39 /* audio_aac.aac */,
-				0E08535628CB06C3003B9C39 /* audio_ac3.ac3 */,
-				0E08535928CB06C3003B9C39 /* audio_aiff.aiff */,
-				0E08534A28CB06C2003B9C39 /* audio_flac.flac */,
-				0E08535028CB06C2003B9C39 /* audio_m4a.m4a */,
-				0E08534328CB06C2003B9C39 /* audio_mp3.mp3 */,
-				0E08535328CB06C3003B9C39 /* audio_ogg.ogg */,
-				0E08534928CB06C2003B9C39 /* audio_wav.wav */,
-				0E08534E28CB06C2003B9C39 /* audio_wma.wma */,
-				0E08535528CB06C3003B9C39 /* h264.MOV */,
-				0E08535728CB06C3003B9C39 /* hevc.MOV */,
-				0E08534428CB06C2003B9C39 /* i-see-fire.mp4 */,
-				0E08534528CB06C2003B9C39 /* NewYork.ttf */,
-				0E08535128CB06C3003B9C39 /* speed_2.0.mkv */,
-				0E08534D28CB06C2003B9C39 /* speed_play.mkv */,
-				0E08534728CB06C2003B9C39 /* TearsOfSteel 720p h265.mkv */,
-				0E08535428CB06C3003B9C39 /* test_filter.png */,
-				0E08534228CB06C2003B9C39 /* The_Three_Diablos.avi */,
-				0E08534C28CB06C2003B9C39 /* video_convert_asf.asf */,
-				0E08534F28CB06C2003B9C39 /* video_convert_avi.avi */,
-				0E08534828CB06C2003B9C39 /* video_convert_flv.flv */,
-				0E08534B28CB06C2003B9C39 /* video_convert_mkv.mkv */,
-				0E08534628CB06C2003B9C39 /* video_convert_mov.mov */,
-				0E08534128CB06C2003B9C39 /* video_convert_mpeg.mpeg */,
-				0E08535A28CB06C3003B9C39 /* video_convert_wmv.wmv */,
-				0E08535228CB06C3003B9C39 /* video_h264.h264 */,
 				0E08533F28CB03E2003B9C39 /* EasyMediaProc.bundle */,
 			);
 			path = Media;
@@ -321,38 +239,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E08536828CB06C3003B9C39 /* audio_wma.wma in Resources */,
-				0E08536B28CB06C3003B9C39 /* speed_2.0.mkv in Resources */,
-				0E08536228CB06C3003B9C39 /* video_convert_flv.flv in Resources */,
-				0E08536428CB06C3003B9C39 /* audio_flac.flac in Resources */,
 				854DB9B12882E86A0007D001 /* pause@3x.png in Resources */,
 				0E08534028CB03E2003B9C39 /* EasyMediaProc.bundle in Resources */,
-				0E08536928CB06C3003B9C39 /* video_convert_avi.avi in Resources */,
-				0E08537028CB06C3003B9C39 /* audio_ac3.ac3 in Resources */,
-				0E08537128CB06C3003B9C39 /* hevc.MOV in Resources */,
-				0E08535D28CB06C3003B9C39 /* audio_mp3.mp3 in Resources */,
-				0E08536E28CB06C3003B9C39 /* test_filter.png in Resources */,
 				854DB76B2882D2DA0007D001 /* LaunchScreen.storyboard in Resources */,
-				0E08536628CB06C3003B9C39 /* video_convert_asf.asf in Resources */,
-				0E08536C28CB06C3003B9C39 /* video_h264.h264 in Resources */,
-				0E08536028CB06C3003B9C39 /* video_convert_mov.mov in Resources */,
 				854DB9B22882E86A0007D001 /* play_full@3x.png in Resources */,
 				854DB7682882D2DA0007D001 /* Assets.xcassets in Resources */,
-				0E08536328CB06C3003B9C39 /* audio_wav.wav in Resources */,
-				0E08537428CB06C3003B9C39 /* video_convert_wmv.wmv in Resources */,
-				0E08535F28CB06C3003B9C39 /* NewYork.ttf in Resources */,
-				0E08536728CB06C3003B9C39 /* speed_play.mkv in Resources */,
-				0E08536528CB06C3003B9C39 /* video_convert_mkv.mkv in Resources */,
-				0E08537228CB06C3003B9C39 /* audio_aac.aac in Resources */,
-				0E08535B28CB06C3003B9C39 /* video_convert_mpeg.mpeg in Resources */,
-				0E08536F28CB06C3003B9C39 /* h264.MOV in Resources */,
-				0E08535C28CB06C3003B9C39 /* The_Three_Diablos.avi in Resources */,
-				0E08536D28CB06C3003B9C39 /* audio_ogg.ogg in Resources */,
-				0E08537328CB06C3003B9C39 /* audio_aiff.aiff in Resources */,
-				0E08535E28CB06C3003B9C39 /* i-see-fire.mp4 in Resources */,
-				0E08536128CB06C3003B9C39 /* TearsOfSteel 720p h265.mkv in Resources */,
 				854DB7662882D2D90007D001 /* Main.storyboard in Resources */,
-				0E08536A28CB06C3003B9C39 /* audio_m4a.m4a in Resources */,
 				854DB9B02882E86A0007D001 /* play@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
